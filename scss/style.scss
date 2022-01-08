@@ -1,0 +1,84 @@
+
+body { background-image: url(../imagenes/foto3.jpeg);
+    font-family: 'Nunito', sans-serif;
+  }
+
+nav ul li {background-image: linear-gradient(to top, lightsalmon, pink);
+
+  list-style-type: none;
+	padding: 5px; 
+	display: inline-flex;
+
+         a {font-size: 17px;
+	        text-decoration: none;
+	        color: darkred;	}
+ }
+
+.texto {color: red;
+		font-size: 17px;
+		text-decoration: none;
+		text-align: justify-all;
+		margin: 5px;}
+
+.formulario { color: red;
+	font-size: 18px; }
+
+p.info {color: blue;
+		font-size: 18px;}
+
+h1,h2 {color: darkred;
+text-align: center;}
+
+.hover {transition: 3s;}
+
+.hover:hover{height: 30px;}
+
+.hover1 {transition: 1s;}
+
+.hover1:hover{width: 110px;}
+
+@keyframes animacion { 
+
+    0%{width: 50%;}
+   20%{transform: rotate(360deg);}
+   40%{width: 50%;}
+   60%{transform: skew(10deg);}
+   80%{transform: scale(.5,.5);}
+  100%{width: 50%;} 
+  
+  }
+
+  .animacion {
+	animation-name: animacion;
+    animation-duration: 5s;
+    animation-iteration-count: 2s;
+    animation-timing-function: ease-in;
+   }   
+
+
+$estilo:(
+    color: #0FC3C9,
+    centro: center,
+    fuente: 22px,
+    );
+
+.estilo {
+    background-color: map-get($estilo, color);
+    text-align: map-get($estilo, centro);
+    font-size: map-get($estilo, fuente);
+ }
+
+@mixin txt($color, $font) {
+   color: $color;
+   font-family: $font;
+}
+.texto {
+   @include txt(#ffffff, sans-serif);
+}
+
+.formulario {text-align: center};
+
+.intro {color: black;
+font-size: 23px;
+background-color: white;}
+

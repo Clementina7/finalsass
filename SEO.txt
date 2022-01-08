@@ -1,0 +1,12 @@
+ En el archivo index.html y nosotros.html sumé el SEO con las siguientes características:
+
+-Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas
+palabras el contenido de mi sitio: 
+  “Bienvenido a mi emprendimiento; aqui encontraras, indumentaria, decoracion, imágenes, videos,
+  música y mucho más"
+
+-Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las
+ páginas de mi sitio: "HIPPIE, BOHO CHIC, ESTILO DE VIDA, INDUMENTARIA, DECORACION"
+
+-Texto: cambie el color de fondo del texto, el tamaño de fuente y la alineacion del mismo; correspondiente a la
+ pagina nosotros.html
